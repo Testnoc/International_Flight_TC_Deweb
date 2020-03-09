@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36080" started-at="2020-03-10T04:16:50Z" finished-at="2020-03-10T04:17:26Z">
+    <groups>
+      <group name="Search button">
+        <method signature="Goibibo_International_Flight_vertical.search_button()[pri:4, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="search_button" class="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical"/>
+      </group> <!-- Search button -->
+      <group name="Select_Insurance">
+        <method signature="Goibibo_International_Flight_vertical.insurance_selection()[pri:7, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="insurance_selection" class="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical"/>
+      </group> <!-- Select_Insurance -->
+      <group name="Check date of journey">
+        <method signature="Goibibo_International_Flight_vertical.journy_date()[pri:3, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="journy_date" class="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical"/>
+      </group> <!-- Check date of journey -->
+      <group name="Book_Flight">
+        <method signature="Goibibo_International_Flight_vertical.book_flight()[pri:6, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="book_flight" class="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical"/>
+      </group> <!-- Book_Flight -->
+      <group name="Enter Traveller Details">
+        <method signature="Goibibo_International_Flight_vertical.traveller_details()[pri:8, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="traveller_details" class="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical"/>
+      </group> <!-- Enter Traveller Details -->
+      <group name="Enter the Source Location">
+        <method signature="Goibibo_International_Flight_vertical.Source()[pri:1, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="Source" class="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical"/>
+      </group> <!-- Enter the Source Location -->
+      <group name="Enter the Destination Location">
+        <method signature="Goibibo_International_Flight_vertical.Destination()[pri:2, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="Destination" class="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical"/>
+      </group> <!-- Enter the Destination Location -->
+      <group name="Click on Icon">
+        <method signature="Goibibo_International_Flight_vertical.Icon()[pri:0, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="Icon" class="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical"/>
+      </group> <!-- Click on Icon -->
+      <group name="Proceed to payment page">
+        <method signature="Goibibo_International_Flight_vertical.Proceed_to_payment()[pri:9, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="Proceed_to_payment" class="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical"/>
+      </group> <!-- Proceed to payment page -->
+    </groups>
+    <test name="Test" duration-ms="36080" started-at="2020-03-10T04:16:50Z" finished-at="2020-03-10T04:17:26Z">
+      <class name="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="beforeClass" is-config="true" duration-ms="15378" started-at="2020-03-10T04:16:50Z" finished-at="2020-03-10T04:17:05Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Icon()[pri:0, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="Icon" duration-ms="1931" started-at="2020-03-10T04:17:05Z" finished-at="2020-03-10T04:17:07Z">
+        </test-method> <!-- Icon -->
+        <test-method status="PASS" signature="Source()[pri:1, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="Source" duration-ms="1482" started-at="2020-03-10T04:17:07Z" finished-at="2020-03-10T04:17:09Z">
+        </test-method> <!-- Source -->
+        <test-method status="PASS" signature="Destination()[pri:2, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="Destination" duration-ms="404" started-at="2020-03-10T04:17:09Z" finished-at="2020-03-10T04:17:09Z">
+        </test-method> <!-- Destination -->
+        <test-method status="PASS" signature="journy_date()[pri:3, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="journy_date" duration-ms="287" started-at="2020-03-10T04:17:09Z" finished-at="2020-03-10T04:17:09Z">
+        </test-method> <!-- journy_date -->
+        <test-method status="PASS" signature="search_button()[pri:4, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="search_button" duration-ms="1127" started-at="2020-03-10T04:17:09Z" finished-at="2020-03-10T04:17:11Z">
+        </test-method> <!-- search_button -->
+        <test-method status="PASS" signature="book_flight()[pri:6, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="book_flight" duration-ms="3457" started-at="2020-03-10T04:17:11Z" finished-at="2020-03-10T04:17:14Z">
+        </test-method> <!-- book_flight -->
+        <test-method status="PASS" signature="insurance_selection()[pri:7, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="insurance_selection" duration-ms="1266" started-at="2020-03-10T04:17:14Z" finished-at="2020-03-10T04:17:15Z">
+        </test-method> <!-- insurance_selection -->
+        <test-method status="PASS" signature="traveller_details()[pri:8, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="traveller_details" duration-ms="788" started-at="2020-03-10T04:17:15Z" finished-at="2020-03-10T04:17:16Z">
+        </test-method> <!-- traveller_details -->
+        <test-method status="PASS" signature="Proceed_to_payment()[pri:9, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="Proceed_to_payment" duration-ms="7379" started-at="2020-03-10T04:17:16Z" finished-at="2020-03-10T04:17:23Z">
+        </test-method> <!-- Proceed_to_payment -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical@7fe8ea47]" name="afterClass" is-config="true" duration-ms="2564" started-at="2020-03-10T04:17:23Z" finished-at="2020-03-10T04:17:26Z">
+        </test-method> <!-- afterClass -->
+      </class> <!-- ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
