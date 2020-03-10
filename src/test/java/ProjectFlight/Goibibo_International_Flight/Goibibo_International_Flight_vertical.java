@@ -136,7 +136,7 @@ String flight_icon = "//li[@class='active']";
   
     	driver.findElement(By.xpath(proceed_button)).click();
     	
-    	driver.findElement(By.xpath("//*[@id=\"addonCard\"]/div[1]/div/span")).click();
+    	driver.findElement(By.xpath("//span[@class='bg-greyLt quicks fb white brdrRd10 ico15 padLR20 padTB8 curPointer']")).click();
     	
     	driver.findElement(By.xpath(select_nb)).click();
 
