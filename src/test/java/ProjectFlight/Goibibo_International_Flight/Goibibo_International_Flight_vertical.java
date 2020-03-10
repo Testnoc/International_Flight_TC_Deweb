@@ -21,10 +21,12 @@ String flight_icon = "//li[@class='active']";
 	String date_selection ="//*[@id=\"fare_20200423\"]";
 	
 	String search_button = "//*[@id=\"gi_search_btn\"]";
+	
+	String depature_filter = "//span[contains(text(),'DEPARTURE')]";
 		
 	String airlines_selection = "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]";
 	
-	String book_flight = "//*[@id=\"content\"]/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div/div[1]/div[2]/span/span[1]/input";
+	String book_flight = "//*[@id=\"content\"]/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div[2]/div/div/div[1]/div[2]/span/span/input";
 	
 	String insurance_selection = "//input[@name='insuranceRadio']";
 	
@@ -86,11 +88,11 @@ String flight_icon = "//li[@class='active']";
 	  
   }
 
-//  @Test (priority=5 ,groups = {"Airlines_Selction"})
+//  @Test (priority=5 ,groups = {"depature_filter"})
 //  
-//  public void airlines_selection() {
+//  public void departure_filter() {
 //	  
-//	  driver.findElement(By.xpath(airlines_selection)).click();
+//	  driver.findElement(By.xpath(depature_filter)).click();
 //	  
 //  }
 //  

@@ -5,9 +5,11 @@
     <classes>
       <class name="ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical">
         <methods>
+          <include name="Proceed_to_payment"/>
           <include name="beforeClass"/>
+          <include name="traveller_details"/>
+          <include name="insurance_selection"/>
           <include name="afterClass"/>
-          <include name="airlines_selection"/>
         </methods>
       </class> <!-- ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical -->
     </classes>
