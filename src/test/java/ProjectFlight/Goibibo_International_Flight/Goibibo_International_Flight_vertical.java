@@ -24,7 +24,7 @@ String flight_icon = "//li[@class='active']";
 	
 	String depature_filter = "//span[contains(text(),'DEPARTURE')]";
 		
-	String airlines_selection = "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[6]/div[2]/div[2]";
+	String airlines_selection = "//*[@id=\\\"filterContainer\\\"]/div/div[4]/div[2]/label[1]/span";
 	
 	String book_flight = "//*[@id=\"content\"]/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div[2]/div/div/div[1]/div[2]/span/span/input";
 	
