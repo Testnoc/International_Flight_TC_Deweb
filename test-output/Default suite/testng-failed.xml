@@ -7,6 +7,7 @@
         <methods>
           <include name="Proceed_to_payment"/>
           <include name="beforeClass"/>
+          <include name="insurance_selection"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- ProjectFlight.Goibibo_International_Flight.Goibibo_International_Flight_vertical -->

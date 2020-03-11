@@ -24,7 +24,7 @@ String flight_icon = "//li[@class='active']";
 	
 	String depature_filter = "//span[contains(text(),'DEPARTURE')]";
 		
-	String airlines_selection = "//*[@id=\\\"filterContainer\\\"]/div/div[4]/div[2]/label[1]/span";
+	String airlines_selection = "//*[@id=\"filterContainer\"]/div/div[4]/div[2]/label[1]/span";
 	
 	String book_flight = "//*[@id=\"content\"]/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div[2]/div/div/div[1]/div[2]/span/span/input";
 	
@@ -88,14 +88,14 @@ String flight_icon = "//li[@class='active']";
 	  
   }
 
-//  @Test (priority=5 ,groups = {"depature_filter"})
-//  
-//  public void departure_filter() {
-//	  
-//	  driver.findElement(By.xpath(depature_filter)).click();
-//	  
-//  }
-//  
+  @Test (priority=5 ,groups = {"depature_filter"})
+  
+  public void airlines_selction() {
+	  
+	  driver.findElement(By.xpath(airlines_selection)).click();
+	  
+  }
+  
   
 
   @Test (priority=6 ,groups = {"Book_Flight"})
